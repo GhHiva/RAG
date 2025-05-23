@@ -1,4 +1,4 @@
-# RAG
+
 
 * `Generative AI models` can only generate responses based on the data that they have been trained on! It means, they do not have the access to the external and uptodate data.
   
