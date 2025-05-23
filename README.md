@@ -1,8 +1,8 @@
 # RAG
 
-* Generative AI models can only generate responses based on the data that they have been trained on! It means, they do not have the access to the external and uptodate data.
+* `Generative AI models` can only generate responses based on the data that they have been trained on! It means, they do not have the access to the external and uptodate data.
   
-* Retrival Augmented Generation (RAG) is a framework that helps to improve the model output accuracy by combining retrival relevant data from the external sources in real time.
+* `Retrival Augmented Generation (RAG)` is a framework that helps to improve the model output accuracy by combining retrival relevant data from the external sources in real time.
 
-* Generative AI platforms: Hugging Face, Google Vertex AI, OpenAI, LangChain, and more.
-* RAG frameworks: Pinecone, Chroma, Activeloop, LIamaIndex, and so on.
+* `Generative AI platforms`: Hugging Face, Google Vertex AI, OpenAI, LangChain, and more.
+* `RAG frameworks`: Pinecone, Chroma, Activeloop, LIamaIndex, and so on.
