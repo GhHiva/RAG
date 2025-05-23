@@ -6,3 +6,6 @@
 
 * `Generative AI platforms`: Hugging Face, Google Vertex AI, OpenAI, LangChain, and more.
 * `RAG frameworks`: Pinecone, Chroma, Activeloop, LIamaIndex, and so on.
+
+
+![‎Question ‎1](https://github.com/user-attachments/assets/d517b166-514a-4217-b153-2f5ec24b0cae)
