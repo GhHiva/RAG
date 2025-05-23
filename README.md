@@ -8,4 +8,4 @@
 * `RAG frameworks`: Pinecone, Chroma, Activeloop, LIamaIndex, and so on.
 
 
-![‎Question ‎1](https://github.com/user-attachments/assets/d517b166-514a-4217-b153-2f5ec24b0cae)
+![‎Question ‎1](https://github.com/user-attachments/assets/2f17844b-426a-4589-bca3-9a767857341a)
