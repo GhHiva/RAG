@@ -9,3 +9,11 @@
 
 
 ![‎Question ‎1](https://github.com/user-attachments/assets/2f17844b-426a-4589-bca3-9a767857341a)
+
+
+# Three main RAG configurations:
+  1. Naive RAG
+  2. Advanced RAG
+  3. Modular RAG
+
+# RAG vs Fine-tuning
