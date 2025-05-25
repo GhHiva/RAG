@@ -36,3 +36,12 @@ RAG and fine-tuning are not always interchangeable. The more data in RAG dataset
   - data remains available.
 * Difference between RAG and fine-tuning relies on the amount of `static (parametric)` and `dynamic (non-parametric)` data that then model must process.
 * `Decision-making threshhold`: Before building a system that searches documents (RAG), the AI project manager should first evaluate whether the existing trained AI model alone (without extra data) is good enough for the task.
+
+# The RAG ecosystem:
+
+RAG-driven generative AI is a framework that can be implemented in many configurations.
+It contains four parts:
+- Data: where is the data coming from? is it reliable? sufficient? what about the privacy?
+- Storage: how to store before or after the processing? how much we wanna store?
+- Retrieval: how the correct data retrieved before the generative model use it? what type of RAG framework will be successful for a project?
+- Generation: which generative AI model fit into the chosen RAG framework?
