@@ -27,7 +27,10 @@ _________________________
 RAG and fine-tuning are not always interchangeable. The more data in RAG datasets, the more cumbersome we have. On the other hand, we cannot fine-tune a model with dynamic and ever-changing data!
 * The decision of whether to implement RAG or fine-tune a model depends on the proportion of `parametric` vs `non-parametric` info!
 **Parametric**:
-  - refers to the model's parameters which is `weights` learned through training data.
-  - model's knowledge is stored in these learned wights and biases.
+  - refers to the model's parameters `weights` which are learned through training data.
+  - model's knowledge is `stored` in these learned `weights` and `biases`.
   - the original training data is transformed into mathematical form.
   - the model remember what it learned from data but the data itself is not stored explicitly.
+**Non-Parametric**:
+  - stores explicit data that can be accessed directly.
+  - data remains available.
