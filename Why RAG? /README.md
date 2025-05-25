@@ -34,3 +34,5 @@ RAG and fine-tuning are not always interchangeable. The more data in RAG dataset
 **Non-Parametric**:
   - stores explicit data that can be accessed directly.
   - data remains available.
+* Difference between RAG and fine-tuning relies on the amount of `static (parametric)` and `dynamic (non-parametric)` data that then model must process.
+* `Decision-making threshhold`: Before building a system that searches documents (RAG), the AI project manager should first evaluate whether the existing trained AI model alone (without extra data) is good enough for the task.
