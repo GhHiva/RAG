@@ -23,4 +23,6 @@ ______________________________________
     2. a generator : can be any LLM such as Gemini, GPT-4o,...
 
 _________________________
-# RAG vs Fine-tuning
+# RAG vs Fine-tuning:
+RAG and fine-tuning are not always interchangeable. The more data in RAG datasets, the more cumbersome we have. On the other hand, we cannot fine-tune a model with dynamic and ever-changing data!
+* The decision of whether to implement RAG or fine-tune a model depends on the proportion of `parametric` vs `non-parametric` info!
