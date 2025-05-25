@@ -45,3 +45,8 @@ It contains four parts:
 - Storage: how to store before or after the processing? how much we wanna store?
 - Retrieval: how the correct data retrieved before the generative model use it? what type of RAG framework will be successful for a project?
 - Generation: which generative AI model fit into the chosen RAG framework?
+
+**The data, storage, and generation domains depend heavily on the type of RAG framwork you choose.**
+![‎New Note ‎1](https://github.com/user-attachments/assets/07e368d1-b6e9-427c-9063-1b9c7d142893)
+
+
