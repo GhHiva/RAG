@@ -14,9 +14,9 @@
 - Build modular RAG that takes both Naive and advanced RAG into account.
 ______________________________________
 # Three main RAG configurations:
-  1. Naive RAG : No complex data embeding and indexing. Ex: augment the user's input. (keywords)
-  2. Advanced RAG : complex data embeding(vector search) and indexing. (multiple data types, multimodal data, structured or unstructured) => complex scenarios
-  3. Modular RAG : any scenario + naive RAG + advanced RAG + ML, and any algorithm needed to complete a complex project.
+  1. `Naive RAG` : No complex data embeding and indexing. Ex: augment the user's input. (keywords)
+  2. `Advanced RAG` : complex data embeding(vector search) and indexing. (multiple data types, multimodal data, structured or unstructured) => complex scenarios
+  3. `Modular RAG` : any scenario + naive RAG + advanced RAG + ML, and any algorithm needed to complete a complex project.
 
 - RAG framework contains two main parts:
     1. a retriever : can be any frameworks such as Activeloop, Pinecone, ...
