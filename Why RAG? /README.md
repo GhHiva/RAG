@@ -53,5 +53,7 @@ It contains four parts:
 # Foundation and Basic Implementation:
 1. Environment: set up for openAI API integration
 2. Generator: create a function for the generator (using GPT-4o), define a function to print a formatted response
-3. Data: set up witht the list pf documents
+3. Data: set up with the list of documents
 4. Query: for user input
+
+
