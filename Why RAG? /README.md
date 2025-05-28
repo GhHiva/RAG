@@ -46,7 +46,12 @@ It contains four parts:
 - Retrieval: how the correct data retrieved before the generative model use it? what type of RAG framework will be successful for a project?
 - Generation: which generative AI model fit into the chosen RAG framework?
 
+
 **The data, storage, and generation domains depend heavily on the type of RAG framwork you choose.**
 ![‎New Note ‎1](https://github.com/user-attachments/assets/07e368d1-b6e9-427c-9063-1b9c7d142893)
 
-
+# Foundation and Basic Implementation:
+1. Environment: set up for openAI API integration
+2. Generator: create a function for the generator (using GPT-4o), define a function to print a formatted response
+3. Data: set up witht the list pf documents
+4. Query: for user input
