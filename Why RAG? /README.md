@@ -56,4 +56,10 @@ It contains four parts:
 3. Data: set up with the list of documents
 4. Query: for user input
 
+## Environment:
+- install openai, (openai==version).
+- create a api key and store it in a secret file.
 
+## The Generator:
+- generate content and time (to measure the time the requests take)
+- create a function that creates a prompt(with instruction and the user input)
