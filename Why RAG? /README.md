@@ -87,6 +87,7 @@ by libraries like spaCy and NLTK. it preprocesses texts to `reduce noise`, `expa
 1. input vs documnet length
 2. creative retrival
 3. need for human feedback
+   
 **we will always have to find the right balance between mathematical metrics and human feedback.**
 
 
