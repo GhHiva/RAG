@@ -72,3 +72,17 @@ It contains four parts:
 - main query is the junction between the retriever and the generator.
 
 ### Retrieval metrics:
+`calculate_cosine_similarity(text1,text2)`:
+measures the cosine of the angle between the user query and each document in a corpus. But it has limitations when dealing with ambiguous queries. The low score occures cuz the mathematical model lacks contextual understanding to differentiate between the different meaning of the word if it had. 
+**Enhanced similarity**
+.
+.
+.
+.
+`Calculate_enhanced_similarity(text1,text2)`:
+
+
+
+
+
+
