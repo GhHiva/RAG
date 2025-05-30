@@ -60,13 +60,15 @@ It contains four parts:
 - install openai, (openai==version).
 - create a api key and store it in a secret file.
 
-## The Generator:
+## Generator:
 - generate content and time (to measure the time the requests take)
 - create a function that creates a prompt(with instruction and the user input)
 
 ## Data:
 - wrap data in one string.
 
-## The query:
+## Query:
 - the retriever query process depends on how the data was processed, the query itself is simply `user input` or `automated input from another AI agent`.
 - main query is the junction between the retriever and the generator.
+
+### Retrieval metrics:
