@@ -73,13 +73,20 @@ It contains four parts:
 
 ### Retrieval metrics:
 `Calculate_cosine_similarity(text1,text2)`:
-measures the cosine of the angle between the user query and each document in a corpus. But it has limitations when dealing with ambiguous queries. The low score occures cuz the mathematical model lacks contextual understanding to differentiate between the different meaning of the word if it had. 
+measures the cosine of the angle between the user query and each document in a corpus. But it has limitations when dealing with ambiguous queries. The low score occures cuz the mathematical model lacks contextual understanding to differentiate between the different meaning of the word if it has had. 
 **Enhanced similarity**
-.
-.
-.
-.
-`Calculate_enhanced_similarity(text1,text2)`:
+by libraries like spaCy and NLTK. it preprocesses texts to `reduce noise`, `expands terms with synonyms` from WordNet, and computes similarity based on the `semantic richness of the expanded vocabulary`.
+4 main functions for enhancing the similarity:
+* get_synonyms()
+* preprocess_text()
+* expand_with_synonyms()
+* Calculate_enhanced_similarity(text1,text2) 
+
+
+**No matter which metric we use, we will face the following limitations**:
+1. input vs documnet length
+2. creative retrival
+3. need for human feedback
 
 
 
