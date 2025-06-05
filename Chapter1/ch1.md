@@ -91,4 +91,9 @@ by libraries like spaCy and NLTK. it preprocesses texts to `reduce noise`, `expa
 **we will always have to find the right balance between mathematical metrics and human feedback.**
 
 * `Naive RAG` can be sufficient in many situations but if the volume of documents becomes too large or the content becomes more complex then we need `Advanced RAG` configurations!
+* Using an `index` will reduce the computational load to just a fraction of the total data.
+* Unlike traditional methods that we have first parsing the text, RAG first converts documents and queries into vectors.
+* Numerical forms speed up calculations.
+* a vector is a list of numbers representing various features of text.
+* `Simple vectors` might count `word occurrences` (term frequency), while more `complex vectors`, known as `embeddings`, capture deeper linguistic patterns.
 
