@@ -90,5 +90,5 @@ by libraries like spaCy and NLTK. it preprocesses texts to `reduce noise`, `expa
    
 **we will always have to find the right balance between mathematical metrics and human feedback.**
 
-
+* `Naive RAG` can be sufficient in many situations but if the volume of documents becomes too large or the content becomes more complex then we need `Advanced RAG` configurations!
 
