@@ -92,3 +92,14 @@ by libraries like spaCy and NLTK. it preprocesses texts to `reduce noise`, `expa
 
 - `Naive RAG` is enough in many situations, but if the volume of documents will be large or the content becomes more complex we need `advanced RAG`.
 
+- as datasets grow larger, keyword search methods might prove too long to run.
+- using `index` will reduce the computational load to a fraction of the total data.
+- RAG first converts documents and user prompts into vectors, numerical forms that speed up the calculations.
+- a vector here is a list of numbers representing various features of text.
+- `simple vector`: counts word occurrences(term frequency)
+- `complex vector`: aka embeddings captures deeper linguestic patterns.
+- Here we will implement **vector search** and **index-based search**.
+
+`Vector Search`: we convert query and documnets to numerical vectors. Then by calculating the cosine similarity between them, we find out most relevent documents.
+
+`Index-Based Search`: we convert query and documnets to numerical vectors using **TF-IDF**. these vectors act as indices in a matrix. allowing quick similarity comparision without parsing each documnet fully.
